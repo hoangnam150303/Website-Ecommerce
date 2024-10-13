@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeProductComponent } from '../../components/TypeProductComponent/TypeProductComponent'
-import { WrapperTypeProduct } from './style'
+import { WrapperButtonShowMore, WrapperProducts, WrapperTypeProduct } from './style'
 import SliderComponent from '../../components/SliderComponent/SliderComponent'
 import slider1 from '../../assets/image/slider1.jpg';
 import slider2 from '../../assets/image/slider2.jpg';
@@ -18,11 +18,22 @@ const HomePage = () => {
             )
           })}
         </WrapperTypeProduct>
-        <div id="container" style={{ backgroundColor: ' #e0e0eb', padding: '0, 120px' }}></div>
+        <div id="container" style={{ backgroundColor: ' #e0e0eb', padding: '0, 120px', width: '1000px' }}></div>
         <SliderComponent arrImages={[slider1, slider2]} />
 
-        <div class="card-product" style={{ display: "flex", gap: "20px", alignItems: "center", marginTop: "30px" }}>
+        <WrapperProducts>
           <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+        </WrapperProducts>
+        <div style={{ width: '100%', display: 'flex', marginTop: '10px', justifyContent: "center" }}>
+          <WrapperButtonShowMore type="outline" textButton="Show All" styleButton={{
+            backgroundColor: "lightBlue", width: "100px", height: "30px", color: "white", fontWeight: 500
+          }} />
         </div>
         <NavbarComponent />
       </div>
