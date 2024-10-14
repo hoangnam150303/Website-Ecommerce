@@ -19,7 +19,6 @@ const HeaderComponent = () => {
                         size="large"
                         placeholder="Input search text"
                         textButton="Search"
-
                     />
                 </Col>
                 <Col span={6} style={{ display: 'flex', gap: '20px' }} >

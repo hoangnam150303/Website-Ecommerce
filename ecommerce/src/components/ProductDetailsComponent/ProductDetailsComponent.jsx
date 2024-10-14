@@ -2,8 +2,8 @@ import { Col, Image, Row } from 'antd'
 import React from 'react'
 import StarryNight from '../../assets/image/Starry-Night.jpg'
 import StarryNightSmall from '../../assets/image/StarryNightSmall.webp'
-import { WrapperStyleColImage, WrapperStyleImageSmall } from './style'
-
+import { WrapperStyleColImage, WrapperStyleImageSmall, WrapperStyleNameProduct,WrapperStyleTextSell, WrapperPriceProduct, WrapperPriceTextProduct, WrapperAddressProduct } from './style'
+import { StarFilled } from '@ant-design/icons';
 const ProductDetailsComponent = () => {
     return (
         <Row style={{ padding: '16px', background: "#fff" }} >
@@ -30,7 +30,25 @@ const ProductDetailsComponent = () => {
                     </WrapperStyleColImage>
                 </Row>
             </Col>
-            <Col span={14}>col-4</Col>
+            <Col span={14} >
+              <div style={{marginLeft: '15px'}}>
+              <WrapperStyleNameProduct>Starry Night - Van Gough</WrapperStyleNameProduct>
+              <div>
+              <StarFilled style={{ fontSize: '10px', color: 'orange', }}/>
+              <StarFilled style={{ fontSize: '10px', color: 'orange', }}/>
+              <StarFilled style={{ fontSize: '10px', color: 'orange', }}/>
+              <WrapperStyleTextSell>| 100+ products sold</WrapperStyleTextSell>
+              </div>
+              </div>
+              <WrapperPriceProduct>
+                <WrapperPriceTextProduct >10000$</WrapperPriceTextProduct>
+              </WrapperPriceProduct>
+              <WrapperAddressProduct style={{marginLeft:"15px"}}>
+                <span>Ship to </span>
+                <span className='address'>408 Trung Nu Vuong street</span>
+                <span className='changeAddress'>-change address</span>
+              </WrapperAddressProduct>
+            </Col>
         </Row>
     )
 }
