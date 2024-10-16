@@ -5,7 +5,7 @@ import { Button } from "antd";
 const InputSearchComponent = (props) => {
     const { placeholder, size, textButton } = props
     return (
-        <div style={{ display: 'flex' }}>
+        <div style={{ display: 'flex'}}>
             <Input size={size} placeholder={placeholder} />
             <Button style={{ backgroundColor: "#724e27", color: '#fff' }} size={size} icon={<SearchOutlined />}>{textButton}</Button>
         </div>

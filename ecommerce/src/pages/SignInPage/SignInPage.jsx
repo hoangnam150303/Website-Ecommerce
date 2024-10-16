@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { WrapperContainerLeft, WrapperContainerRight } from "./style";
 
 const SignInPage = () => {
-    return (
-        <div>SignInPage</div>
-    )
-}
+  return (
+    <div>
+      <WrapperContainerLeft></WrapperContainerLeft>
+      <WrapperContainerRight></WrapperContainerRight>
+    </div>
+  );
+};
 
-export default SignInPage
+export default SignInPage;

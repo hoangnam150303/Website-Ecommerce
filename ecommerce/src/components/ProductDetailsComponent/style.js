@@ -1,4 +1,4 @@
-import { Col, Image } from "antd";
+import { Col, Image, InputNumber } from "antd";
 import styled from "styled-components";
 
 export const WrapperStyleImageSmall = styled(Image)`
@@ -34,7 +34,6 @@ export const WrapperPriceProduct = styled.div`
 export const WrapperPriceTextProduct = styled.h1`
    font-size: 32px;
    line-height: 40px;
-   margin-right: 8px;
    font-weight: 500;
    padding: 10px;
    margin-top: 10px;
@@ -56,6 +55,26 @@ export const WrapperAddressProduct = styled.div`
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    flex-shrink: 0;
   }
+`
+
+export const WrapperQualityProduct = styled.div`
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top:10px
+`
+
+export const WrapperInputNumber = styled(InputNumber)`
+ &.ant-input-number ant-input-number-sm{
+  width: 60px;
+  border-top: none;
+  border-botton: none;
+    &.ant-input-number-input-wrap{
+      display: none;
+    }
+ };
 `
