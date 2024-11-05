@@ -1,10 +1,15 @@
 import React, { useState } from "react";
-import { Input } from "antd";
+import { WrapperInputStyle } from "./style";
 
-const InputFormComponent = () => {
-  const [inputValue, setInputValue] = useState(" ");
+const InputFormComponent = (props) => {
+  const { placeHolder, ...rests } = props;
+  const [inputValue] = useState("");
   return (
-    <Input placeholder="Input your phone number" valueInput={inputValue} />
+    <WrapperInputStyle
+      placeholder={placeHolder}
+      valueInput={inputValue}
+      {...rests}
+    />
   );
 };
 

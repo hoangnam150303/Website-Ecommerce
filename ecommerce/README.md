@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+Technologies use in this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. ReactJS: ReactJS là một thư viện JavaScript mã nguồn mở, được sử dụng để xây dựng giao diện người dùng cho web và ứng dụng di động. Nó cho phép phát triển giao diện từ các thành phần (components) riêng biệt để thiết lập và cập nhật hiệu quả khi dữ liệu thay đổi.
 
-## Available Scripts
+2. Ant design: Ant Design là một ngôn ngữ thiết kế UI cho ứng dụng web mang tính chất doanh nghiệp, cùng với đó là thư viện React UI cung cấp một bộ các thành phần React chất lượng cao. Nó được viết bằng TypeScript và cung cấp trải nghiệm lập trình dự đoán.
 
-In the project directory, you can run:
+3. Axios : Axios là một thư viện HTTP Client dựa trên Promise, có thể chạy trên cả Node.js và trình duyệt. Điều này có nghĩa là bạn có thể sử dụng cùng một codebase cho cả hai môi trường. Phiên bản mới nhất là 1.7.7, được phát hành cách đây 2 tháng.
 
-### `npm start`
+4. Redux: Redux là một thư viện quản lý trạng thái (state management) cho các ứng dụng JavaScript. Nó giúp bạn viết các ứng dụng hoạt động nhất quán, có thể chạy trên nhiều môi trường (bao gồm client, server, và native), và dễ dàng kiểm tra.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. Styled-component: styled-components là một thư viện cho phép bạn viết CSS trong JavaScript, mang lại sự linh hoạt và tính mạnh mẽ cho việc tạo kiểu cho các thành phần trong ứng dụng React. Phiên bản mới nhất là 6.1.13, đã được phát hành cách đây 2 tháng. Bạn có thể sử dụng các tính năng CSS mà bạn yêu thích ngay trong mã của mình.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. React-query: React Query, hiện đang sử dụng dưới tên gọi TanStack Query, là một thư viện mạnh mẽ để quản lý trạng thái từ máy chủ, với nhiều hooks đơn giản để truy vấn và cập nhật dữ liệu. Thư viện này hỗ trợ tính năng caching, refetching và cung cấp trải nghiệm người dùng và phát triển tốt hơn bằng cách tự động quản lý các truy vấn và biến đổi dữ liệu.
+ 
